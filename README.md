@@ -20,7 +20,7 @@ TaskTick is a PHP-based student assignment tracking system that helps teachers c
 ## Tech Stack
 
 - PHP
-- MySQL / MariaDB
+- MySQL 
 - Composer
 - PHPMailer
 - Bootstrap 5
