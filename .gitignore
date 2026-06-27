@@ -1,0 +1,15 @@
+# Composer dependencies
+vendor/
+
+# Personal notes
+Notes.txt
+
+# Environment variables (if you have one)
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code settings (optional)
+.vscode/

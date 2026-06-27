@@ -1,0 +1,135 @@
+/* Global Styles */
+body {
+    background-color: #f8f9fa;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Make footer stay at bottom */
+footer {
+    margin-top: auto;
+}
+
+/* Dashboard cards */
+.card {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    margin-bottom: 1.5rem;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.card-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    padding: 1rem;
+}
+
+.card-header h3 {
+    margin: 0;
+    font-size: 1.25rem;
+}
+
+/* Status badges */
+.badge {
+    font-weight: 500;
+    padding: 0.5em 0.75em;
+}
+
+/* Assignment table */
+.table thead th {
+    border-top: none;
+    background-color: #f8f9fa;
+}
+
+/* Login and register forms */
+.form-label {
+    font-weight: 500;
+}
+
+/* Stats cards */
+.card.bg-success, .card.bg-warning, .card.bg-danger {
+    color: white;
+    transition: transform 0.2s ease-in-out;
+}
+
+.card.bg-success:hover, .card.bg-warning:hover, .card.bg-danger:hover {
+    transform: translateY(-5px);
+}
+
+.card.bg-success h2, .card.bg-warning h2, .card.bg-danger h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+/* Custom navbar styling */
+.navbar-brand {
+    font-weight: 700;
+}
+
+.nav-link .badge {
+    margin-left: 5px;
+}
+
+/* Assignment details */
+.assignment-details h5 {
+    font-weight: 600;
+    color: #495057;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    .card.bg-success h2, .card.bg-warning h2, .card.bg-danger h2 {
+        font-size: 2rem;
+    }
+}
+
+/* Student progress accordion */
+.accordion-button:not(.collapsed) {
+    background-color: rgba(13, 110, 253, 0.1);
+    color: #0d6efd;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+    border-color: rgba(0, 0, 0, 0.125);
+}
+
+/* Assignment submission area */
+.bg-light.rounded {
+    padding: 1rem;
+    background-color: #f8f9fa;
+    border: 1px solid #e9ecef;
+}
+
+/* Home page feature cards */
+.card .fas {
+    margin-bottom: 1rem;
+    color: #0d6efd;
+}
+
+/* Button hover effects */
+.btn {
+    transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+/* Custom animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.alert {
+    animation: fadeIn 0.5s ease-in-out;
+}
